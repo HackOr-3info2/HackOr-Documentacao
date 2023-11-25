@@ -12,8 +12,8 @@ Equipe:
 Links do projeto:
 
 -   [Documentação (esse documento)](github.com/Pro3-2/Documentacao)
--   Backend: [Repositório](https://github.com/Pro3-2/DjangoBla-main) e [Publicação](https://djangobla-main-dev-khme.2.us-1.fl0.io)
--   Frontend: [Repositório](https://github.com/Pro3-2/Hack-or) e [Publicação](hackor.surge.sh)
+-   Backend: [Repositório](https://github.com/Pro3-2/DjangoBla-main) e [Publicação](https://djangobla-main-dev-khme.2.us-1.fl0.io/api)
+-   Frontend: [Repositório](https://github.com/Pro3-2/Hack-or) e [Publicação](https://hackor.surge.sh)
 
 # Descrição da proposta
 
