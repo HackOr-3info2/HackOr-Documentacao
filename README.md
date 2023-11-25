@@ -14,6 +14,7 @@ Links do projeto:
 -   [Documentação (esse documento)](github.com/Pro3-2/Documentacao)
 -   Backend: [Repositório](https://github.com/Pro3-2/DjangoBla-main) e [Publicação](https://djangobla-main-dev-khme.2.us-1.fl0.io/api)
 -   Frontend: [Repositório](https://github.com/Pro3-2/Hack-or) e [Publicação](https://hackor.surge.sh)
+-   Apresentação: [link para a apresentação](https://docs.google.com/presentation/d/1yj3asOVc79Y7Qi3djOMDUuR7UgqGJyIQ9VKU2kBr9UI/edit?usp=sharing)
 
 # Descrição da proposta
 
