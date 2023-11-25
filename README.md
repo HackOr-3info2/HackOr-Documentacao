@@ -12,8 +12,8 @@ Equipe:
 Links do projeto:
 
 -   [Documentação (esse documento)](github.com/Pro3-2/Documentacao)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório]((https://github.com/Pro3-2/DjangoBla-main)) e [Publicação]([https://pi-backend.herokuapp.com/](https://djangobla-main-dev-khme.2.us-1.fl0.io))
+-   Frontend: [Repositório](https://github.com/Pro3-2/Hack-or) e [Publicação](hackor.surge.sh)
 
 # Descrição da proposta
 
