@@ -149,6 +149,6 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 # 7. Diagrama de Caso de Uso
 
-![Texto alternativo](docs/uml-hackathon.png)
+![Texto alternativo](docs/uml-hackathon.jpg)
 
 ---
