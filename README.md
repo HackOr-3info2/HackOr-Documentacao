@@ -149,7 +149,7 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Araquari tem co
 
 **R.N.F. 11 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os avaliadores, garantindo que apenas pessoas autorizadas possam realizar alterações nos dados fornecidos.
 
-# Diagrama de Caso de Uso
+# Diagrama de Caso de Uso - UML
 
 ![Texto alternativo](docs/uml-hackathon.jpg)
 
