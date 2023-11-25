@@ -17,7 +17,7 @@ Links do projeto:
 
 # Descrição da proposta
 
-O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem como objetivo o ensino e incentivo dos alunos ao trabalho em equipe e auto-desenvolvimento por meio de sua metodologia ativa. Previamente pensado apenas para o 3º ano do ensino médio técnico e durante apenas um ano, foi observada a efetividade do projeto, sendo implementado para os próximos anos e todas as turmas do técnico em informática, portanto, se tem a necessidade do uso do Software para administrar, avaliar e manter a organização dos projetos para melhor desempenho no futuro dessa realização. O Software conterá a autenticação apenas de professores avaliadores, que pontuarão as equipes de acordo com categorias pré-dispostas com notas de 0 a 5. 
+O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem como objetivo o ensino e incentivo dos alunos ao trabalho em equipe e auto-desenvolvimento por meio de sua metodologia ativa. Previamente pensado apenas para o 3º ano do ensino médio técnico e durante apenas um ano, foi observada a efetividade do projeto, sendo implementado para os próximos anos e todas as turmas do técnico em informática, portanto, se tem a necessidade do uso do Software para administrar, avaliar e manter a organização dos projetos para melhor desempenho no futuro dessa realização. O Software conterá a autenticação apenas de professores avaliadores, que pontuarão as equipes de acordo com categorias pré-dispostas com notas de 0 a 5 pontos. 
 
 # Regras de negócio
 
@@ -69,69 +69,56 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 - **R.F. 01 - Registro do Usuário:** O sistema deve permitir o registro de usuários.
   - **Dados necessários:** login, senha, nível de permissão. 
-  - **Usuários:** todos os níveis de usuário.
+  - **Usuários:** avaliadores do sistema.
 
 - **R.F. 02 - Registro de alunos:** O sistema deve permitir o registro de alunos por professores.
   - **Dados necessários:** login, senha, nível de permissão. 
-  - **Usuários:** Avaliadores do sistema.
+  - **Usuários:** avaliadores do sistema.
 
-- **R.F. 03 - Cadastro de Equipes:** O sistema deve permitir o cadastro das equipes participantes com os alunos registrados.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Alunos participantes do evento
+- **R.F. 03 - Restrição de participação:** O sistema deve permitir que um aluno participe apenas de uma equipe.
+  - **Dados necessários:** login, senha, nível de permissão. 
+  - **Usuários:**  avaliadores do sistema.
 
-- **R.F. 04 - Edição de informações das equipes:** O sistema deve permitir a edição das informações da equipe.
-   - **Dados necessários:** dado 1, dado 2, dado 3.
-   - **Usuários:** Avaliadores do evento.
+- **R.F. 04 - Cadastro de Equipes:** O sistema deve permitir o cadastro das equipes participantes com os alunos registrados.
+  - **Dados necessários:** id equipe, nome da equipe, tema, turma, edição participante.
+  - **Usuários:** avaliadores do sistema.
 
-- **R.F. 05 - Exclusão de equipes:** O sistema deve permitir a exclusao das equipes.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
+- **R.F. 05 - Edição de informações das equipes:** O sistema deve permitir a edição das informações da equipe.
+   - **Dados necessários:** id equipe, nome da equipe, tema, turma, edição participante.
+   - **Usuários:** avaliadores do evento.
 
 - **R.F. 06 - Edição de informações dos participantes:** O sistema deve permitir a edição dos dados dos participantes.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
+  - **Dados necessários:** id usuario, nome usuario, email.
+  - **Usuários:** avaliadores do evento.
 
 - **R.F. 07 - Edição de informações dos avaliadores:** O sistema deve permitir a edição dos dados dos avaliadores.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
+  - **Dados necessários:**  id usuario, nome usuario, email.
+  - **Usuários:** avaliadores do evento.
 
 - **R.F. 08 - Atribuição de notas às equipes:** O sistema deve permitir a atribuição de nota às equipes.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
+  - **Dados necessários:** formato que aceite notas de 0 à 5.
+  - **Usuários:** avaliadores do evento.
 
 - **R.F. 09 - Edição de notas atribuídas.** O sistema deve permitir a edição de nota às equipes.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
+  - **Dados necessários:** nota anterior dada, projeto esteja na competição.
+  - **Usuários:** avaliadores do evento.
 
-- **R.F. 10 - Remoção de notas atribuídas:** O sistema deve permitir exclusão de nota às equipes.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** Avaliadores do evento.
 **Processamento:**
 
 - **R.F. 11 - Verificação da validade do login e senha:** O sistema deve verificar a validade da autenticação dos usuários.
   - **Dados necessários:** login, senha.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 12 - Validação do nível de permissão do usuário:** O sistema deve validar o nível de permissão do usuário para acessar os dados da aplicação0.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 13 - Validação do nível de permissão do usuário:** O sistema deve validar o nível de permissão do usuário para acessar os dados da aplicação0.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Processamento:**
+  - **Usuários:**  avaliadores do sistema.
 
 **Saídas:**
 
-- **R.F. 14 - Relatórios Personalizáveis:** O sistema deve manter relatórios que podem incluir gráficos, tabelas e dados específicos do usuário.. 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
+- **R.F. 14 - Relatórios Personalizáveis:** O sistema deve manter relatórios que podem incluir gráficos, tabelas e dados específicos do desempenho das equipes. 
+  - **Dados necessários:** avaliações feitas.
   - **Usuários:** todos os níveis de usuário.
 
 - **R.F. 15 - Pesquisa de Equipes:** O sistema deve permitir a busca por meio de pesquisa das equipes. 
   - **Dados necessários:** Nome da equipe ou edição participada.
-  - **Usuários:** Usuário tipo Admin.
-
+  - **Usuários:** avaliadores do evento.
+ 
 # 6. Requisitos não funcionais
 
   **Atributos de qualidade:**
@@ -148,7 +135,7 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 **R.N.F. 06 - Manutenção:** O sistema deve ser de fácil manutenção e atualização.
 
- **Restrições:** 
+**Restrições:** 
 
 **R.N.F. 07 - Tecnologia Front-end web:** Para a exibição o sistema web será desenvolvido no framework VUEJS, HTML5 e CSS3.
 
