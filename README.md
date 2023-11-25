@@ -17,7 +17,7 @@ Links do projeto:
 
 # Descrição da proposta
 
-O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem como objetivo o ensino e incentivo dos alunos ao trabalho em equipe e auto-desenvolvimento por meio de sua metodologia ativa. Previamente pensado apenas para o 3º ano do ensino médio técnico e durante apenas um ano, foi observada a efetividade do projeto, sendo implementado para os próximos anos e todas as turmas do técnico em informática, portanto, se tem a necessidade do uso do Software para administrar, avaliar e manter a organização dos projetos para melhor desempenho no futuro dessa realização. O Software conterá a autenticação apenas de professores avaliadores, que pontuarão as equipes de acordo com categorias pré-dispostas com notas de 0 a 5 pontos. 
+O projeto do Hackathon do Instituto Federal Catarinense - Campus Araquari tem como objetivo o ensino e incentivo dos alunos ao trabalho em equipe e auto-desenvolvimento por meio de sua metodologia ativa. Previamente pensado apenas para o 3º ano do ensino médio técnico e durante apenas um ano, foi observada a efetividade do projeto, sendo implementado para os próximos anos e todas as turmas do técnico em informática, portanto, se tem a necessidade do uso do Software para administrar, avaliar e manter a organização dos projetos para melhor desempenho no futuro dessa realização. O Software conterá a autenticação apenas de professores avaliadores, que pontuarão as equipes de acordo com categorias pré-dispostas com notas de 0 a 5 pontos. 
 
 # Regras de negócio
 
@@ -63,7 +63,7 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
   - **Restrição**:
             As operações mais frequentes devem ser acessíveis em no máximo três cliques.
 
-# 5. Requisitos funcionais
+# Requisitos funcionais
 
 **Entradas:**
 
@@ -119,7 +119,7 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
   - **Dados necessários:** Nome da equipe ou edição participada.
   - **Usuários:** avaliadores do evento.
  
-# 6. Requisitos não funcionais
+#  Requisitos não funcionais
 
   **Atributos de qualidade:**
 
@@ -135,6 +135,8 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 **R.N.F. 06 - Manutenção:** O sistema deve ser de fácil manutenção e atualização.
 
+**R.N.F. 07 - Acessibilidade:** O sistema deve ser acessível à pessoas com deficiência visual, utilizando-se do alto contraste para superar e/ou melhorar a experiência do cliente.
+
 **Restrições:** 
 
 **R.N.F. 07 - Tecnologia Front-end web:** Para a exibição o sistema web será desenvolvido no framework VUEJS, HTML5 e CSS3.
@@ -147,7 +149,7 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 **R.N.F. 11 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os avaliadores, garantindo que apenas pessoas autorizadas possam realizar alterações nos dados fornecidos.
 
-# 7. Diagrama de Caso de Uso
+# Diagrama de Caso de Uso
 
 ![Texto alternativo](docs/uml-hackathon.jpg)
 
