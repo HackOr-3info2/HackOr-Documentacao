@@ -32,49 +32,48 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
 
 
-# 2. Regras de negócio
+# -. Regras de negócio
 
   **R.N. 01 - Autenticação de Usuário:**
-
-  Regra:
+-  Regra:
             A autenticação do usuário será baseada em um sistema de login e senha.
-  Restrição:
+ - Restrição:
             A senha deve conter pelo menos oito caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais.
 
  **R.N. 02 - Gerenciamento de Equipes:**
-        Regra:
+    -  Regra:
             Cada equipe deve ter um nome exclusivo no sistema.
-        Restrição:
+    - Restrição:
             O número mínimo de membros em uma equipe é 1, e o número máximo é definido pelo administrador do sistema.
 
   **R.N. 03 - Gerenciamento de Participantes:**
-        Regra:
+  - Regra:
             Cada participante deve ser associado a uma equipe.
-        Restrição:
+   - Restrição:
             Um participante só pode pertencer a uma equipe por vez.
 
   **R.N. 04 - Gerenciamento de Avaliadores:**
-        Regra:
+  -  Regra:
             Cada avaliador deve ter uma área de expertise claramente definida.
-        Restrição:
+  - Restrição:
             Um avaliador não pode ser removido se estiver associado a avaliações em andamento.
 
-  * *R.N. 05 - Gerenciamento de Notas:**
-        Regra:
+  **R.N. 05 - Gerenciamento de Notas:**
+    -  Regra:
             Notas só podem ser atribuídas a participantes por avaliadores autorizados.
-        Restrição:
+    - Restrição:
             As notas devem estar dentro de um intervalo específico, determinado pelo administrador do sistema.
 
   **R.N. 06 - Gerenciamento de Edições de Eventos:**
-        Regra:
+    -  Regra:
             Cada edição de evento deve ter um nome único no sistema.
-        Restrição:
+    - Restrição:
             Uma edição de evento não pode ser encerrada enquanto houver participantes com avaliações pendentes.
 
   **R.N. 07 - Usabilidade:**
-        Regra:
+    -  Regra:
             A interface do usuário deve ser projetada de forma a facilitar a navegação e compreensão das funcionalidades.
-        Restrição:
+    - Restrição:
             As operações mais frequentes devem ser acessíveis em no máximo três cliques.
 
 # 5. Requisitos funcionais
@@ -144,8 +143,6 @@ O projeto do Hackathon do Instituto Federal Catarinense - Campus Aaraquari tem c
 
 # 6. Requisitos não funcionais
 
-Os requisitos não funcionais podem ser divididos em duas categorias:
-
 1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
 
 R.N.F. 04 - Segurança: O sistema deve ser protegido contra acesso não autorizado.
@@ -156,7 +153,7 @@ R.N.F. 14 - Facilidade de uso: O sistema deve ser intuitivo e de fácil utiliza�
 
 R.N.F. 02 - Responsividade/Usabilidade: O sistema deve ser responsivo, sendo possível sua utilização em diversos dispositivos com alteração mínima.
 
-1. **Restrições:** Estas são as limitações impostas ao sistema.
+ **Restrições:** Estas são as limitações impostas ao sistema.
 Exemplos de restrições incluem tempo, recursos e ambiente.
 
 R.N.F. 01 - Atuação: O sistema deve ser capaz de lidar com o número necessário de usuários sem queda brusca de desempenho.
