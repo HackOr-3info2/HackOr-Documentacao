@@ -3,7 +3,7 @@
 Sistema para gerenciamento para maratonas de programação (Hackatons) dos terceiros anos do Curso Técnico em Informática para a Internet integrado ao Ensino Médio do IFC - Campus Araquari e outros Campi IFC.
 
 Equipe:
-- [Geovana Horodeski](github.com/horodeski)
+- [Geovana Sophia Horodeski](github.com/horodeski)
 - [Gustavo de Paula Gorges](github.com/GustavodePaulaGorges)
 - [Maria Eduarda Nunes Gerotti](github.com/mariagerotti)
 - [Victor Luiz da Silva](github.com/VictoorLDS)
